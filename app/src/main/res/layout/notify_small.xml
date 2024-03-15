@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_48sdp"
+    android:padding="@dimen/_5sdp">
+
+    <ImageView
+        android:id="@+id/imgLocation"
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_16sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/icon_location" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imgWeather"
+        android:layout_alignBottom="@id/imgWeather"
+        android:layout_marginStart="@dimen/_4sdp"
+        android:layout_toEndOf="@id/imgLocation"
+        android:ellipsize="end"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:gravity="center_vertical"
+        android:maxWidth="@dimen/_140sdp"
+        android:maxLines="1"
+        android:text="New york:"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imgWeather"
+        android:layout_alignBottom="@id/imgWeather"
+        android:layout_toStartOf="@id/imgWeather"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_vertical"
+        android:text="31\u00B0"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imgWeather"
+        android:layout_alignBottom="@id/imgWeather"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_4sdp"
+        android:layout_toStartOf="@id/tvTemperature"
+        android:layout_toEndOf="@id/tvLocation"
+        android:ellipsize="end"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:text="Heavy Rain"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imgWeather"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/imgLoad"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:src="@drawable/ic_raining" />
+    
+    <ImageView
+        android:id="@+id/imgLoad"
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_16sdp"
+        android:src="@drawable/ic_reload"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

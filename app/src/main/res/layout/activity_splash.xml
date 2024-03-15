@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/bg_app"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.SplashActivity">
+
+    <ImageView
+        android:id="@+id/icLogo"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:contentDescription="@null"
+        android:foregroundGravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_splash_logo"
+        app:layout_constraintBottom_toTopOf="@id/tvContainAds"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNameApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@id/icLogo" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="@dimen/_91sdp"
+        android:layout_height="@dimen/_52sdp"
+        android:contentDescription="@null"
+        android:src="@drawable/gif_splash_weather"
+        app:layout_constraintBottom_toTopOf="@id/tvContainAds"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvContainAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center"
+        android:text="@string/this_action_can_contain_ads"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="75dp"
+    android:height="75dp"
+    android:viewportWidth="75"
+    android:viewportHeight="75">
+    <group>
+        <group>
+            <path
+                android:fillType="evenOdd"
+                android:pathData="M21.94 42.06C14.8 42.06 9 36.26 9 29.12c0-7.15 5.8-12.95 12.94-12.95l0.9 0.03C24.73 11.4 29.4 8 34.89 8c6.57 0 12 4.9 12.83 11.24h0.1c6.3 0 11.42 5.1 11.42 11.4 0 6.31-5.11 11.42-11.41 11.42H21.94Z">
+                <aapt:attr name="android:fillColor">
+                    <gradient
+                        android:type="linear"
+                        android:startX="34.12"
+                        android:startY="8"
+                        android:endX="34.12"
+                        android:endY="42.06">
+                        <item
+                            android:color="#FFFFFFFF"
+                            android:offset="0"/>
+                        <item
+                            android:color="#ADFFFFFF"
+                            android:offset="1"/>
+                    </gradient>
+                </aapt:attr>
+            </path>
+        </group>
+        <path
+            android:fillColor="#FFF4F8FC"
+            android:pathData="M21.12 45.03A2 2 0 1 0 21.12 49.03 2 2 0 1 0 21.12 45.03z"/>
+        <path
+            android:fillColor="#FFF4F8FC"
+            android:pathData="M34.12 45.03A2 2 0 1 0 34.12 49.03 2 2 0 1 0 34.12 45.03z"/>
+        <path
+            android:fillColor="#FFF4F8FC"
+            android:pathData="M27.12 52.03A2 2 0 1 0 27.12 56.03 2 2 0 1 0 27.12 52.03z"/>
+        <path
+            android:fillColor="#FFF4F8FC"
+            android:pathData="M47.12 45.03A2 2 0 1 0 47.12 49.03 2 2 0 1 0 47.12 45.03z"/>
+        <path
+            android:fillColor="#FFF4F8FC"
+            android:pathData="M40.12 52.03A2 2 0 1 0 40.12 56.03 2 2 0 1 0 40.12 52.03z"/>
+    </group>
+</vector>

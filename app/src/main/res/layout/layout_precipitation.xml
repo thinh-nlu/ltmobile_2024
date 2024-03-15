@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/_4sdp"
+    android:paddingTop="@dimen/_6sdp">
+
+    <TextView
+        android:id="@+id/tvWeekDay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Today"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/imgWeather"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="20/09"
+        android:textColor="#808080"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvWeekDay" />
+
+    <ImageView
+        android:id="@+id/imgWeather"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:src="@drawable/ic_cloudy"
+        app:layout_constraintEnd_toStartOf="@id/tvDegreeStart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDegreeStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="86\u00B0"
+        android:textColor="#74757A"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/barTemperatureBg"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/barTemperatureBg"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:background="@drawable/bar_temperature_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tvDegreeEnd"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/barTemperature"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_3sdp"
+        android:background="@drawable/bar_temperature"
+        app:layout_constraintTop_toTopOf="@id/barTemperatureBg"
+        app:layout_constraintStart_toStartOf="@id/barTemperatureBg"
+        app:layout_constraintEnd_toEndOf="@id/barTemperatureBg"/>
+
+    <TextView
+        android:id="@+id/tvDegreeEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="67\u00B0"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/lineBottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:background="#383940"
+        app:layout_constraintTop_toBottomOf="@id/tvDate" />
+</androidx.constraintlayout.widget.ConstraintLayout>

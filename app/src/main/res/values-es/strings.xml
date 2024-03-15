@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Splash
+    <string name="this_action_can_contain_ads">Esta acción puede contener anuncios</string>
+
+    //Language
+    <string name="language">Idioma</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="spanish">Spanish</string>
+    <string name="hindi">Hindi</string>
+
+    //Intro
+    <string name="intro_title_1">Actualizaciones meteorológicas en tiempo real</string>
+    <string name="intro_content_1">Manténgase preparado con actualizaciones meteorológicas minuto a minuto para su ubicación todo el día.</string>
+    <string name="intro_title_2">Pronóstico por hora detallado</string>
+    <string name="intro_content_2">Pronóstico detallado por hora para la planificación y preparación meteorológica de su día</string>
+    <string name="intro_title_3">Clima en todo el mundo</string>
+    <string name="intro_content_3">Agregue cualquier ubicación que desee y fácilmente para cambiar.</string>
+    <string name="next">Próximo</string>
+    <string name="get_started">Empezar</string>
+
+    //Permission
+    <string name="permission">Permiso</string>
+    <string name="go">Ir</string>
+    <string name="permission_description">Weather requiere permiso para usar el {</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="device_location">Ubicación del dispositivo</string>
+    <string name="and">y</string>
+    <string name="gps_is_turn_on">GPS está encendido</string>
+    <string name="gps_is_required_to_use_this_app">Se requiere GPS para usar esta aplicación</string>
+
+    //drawer
+    <string name="setting">Configuración</string>
+    <string name="config">Configuración</string>
+    <string name="general">General</string>
+    <string name="languages">Lenguas</string>
+    <string name="policy">Política</string>
+    <string name="rate_this_app">Califica esta aplicación</string>
+    <string name="share">Compartir</string>
+
+    //config
+    <string name="temperature">Temperatura</string>
+    <string name="time_unit">Unidad de tiempo</string>
+    <string name="wind_speed">Velocidad del viento</string>
+    <string name="pressure">Presión</string>
+    <string name="display">Mostrar</string>
+    <string name="precipitation">Precipitación</string>
+
+    //general setting
+    <string name="privacy_policy">política de privacidad</string>
+    <string name="version">Versión</string>
+    <string name="rate_title">¿Te gusta la aplicación meteorológica?</string>
+    <string name="rate_description">Danos una calificación rápida para que sepamos si te gusta.</string>
+    <string name="rate">Tasa</string>
+    <string name="no_later">No más tarde</string>
+    <string name="thank_you">¡Gracias!</string>
+    <string name="thank_you_description">¡Sus comentarios nos son muy útiles!</string>
+    <string name="ok">DE ACUERDO</string>
+    <string name="please_select_your_rating">Seleccione su calificación</string>
+    <string name="download_app">Descargar Weather Forecast solicitud</string>
+    <string name="share_with">Compartir con</string>
+
+    //Home
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+    <string name="next_10_days">Los próximos 3 días</string>
+    <string name="uv_index">ÍNDICE UV</string>
+    <string name="sunrise">AMANECER</string>
+    <string name="moderate">Moderado</string>
+    <string name="sunset">Atardecer:</string>
+    <string name="wind">VIENTO</string>
+    <string name="feels_like">SE SIENTE COMO</string>
+    <string name="humidity">HUMEDAD</string>
+    <string name="rainfall">LLUVIA</string>
+    <string name="in_last_hour">en la última hora</string>
+    <string name="visibility">Visibilidad</string>
+    <string name="similar_to_the_actual_temperature">Similar a la temperatura real</string>
+    <string name="low">Bajo</string>
+    <string name="high">Alto</string>
+    <string name="air_condition">AIRE ACONDICIONADO</string>
+    <string name="air_condition_good">Tiene buena calidad del aire: disfrute de sus actividades al aire libre.</string>
+    <string name="dominant_pollutant">Contaminante dominante</string>
+    <string name="ten_days_forecast">Pronóstico de 3 días</string>
+    <string name="search">Buscar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add">Agregar</string>
+    <string name="could_not_find_location">No pude encontrar la ubicación</string>
+
+    //weather description
+    <string name="very_high">Muy alto</string>
+    <string name="extreme">Extremo</string>
+    <string name="the_dew_point_is">El punto de rocío es&#160;</string>
+    <string name="right_now">&#160;ahora mismo.</string>
+    <string name="similar_to_temperature">Similar a la temperatura real.</string>
+    <string name="different_from_temperature">Diferente de la temperatura real.</string>
+    <string name="weather_now">WeatherNow</string>
+
+    //weather notification
+    <string name="view_full_weather_forecast">Ver pronóstico del clima completo</string>
+    <string name="turn_on_wifi">Encender wifi</string>
+    <string name="turn_on">Encender</string>
+    <string name="ignore">Ignorar</string>
+    <string name="the_device_cannot_connect_to_wifi">El dispositivo no puede conectarse a WiFi, conéctese a WiFi para confirmar la ubicación más precisa</string>
+    <string name="cannot_connect_to_wifi">Conéctese a WiFi para confirmar la ubicación más precisa</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "861569230837",
+    "project_id": "app146-weather",
+    "storage_bucket": "app146-weather.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861569230837:android:a5beaf3b04cf26d38162bc",
+        "android_client_info": {
+          "package_name": "com.expressweather.accurate.live.weather.forecast"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBhxSsqUqfbOF9VYqJy-ntV1xBXxdG8TI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
